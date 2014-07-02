@@ -7,6 +7,14 @@ $(document).ready(function () {
 
 });
 
+ $(function() {
+            $( "#slider-2" ).slider({
+               value: 60,
+               animate:"slow",
+               orientation: "horizontal"
+            });
+  });
+
 
 
 
